@@ -1,0 +1,346 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #de6588;
+  height: 100vh;
+  
+  background-image: url(./img/fundo-teste.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  
+}
+
+
+main{
+  display: flex;
+  margin-top: 100px;
+  padding-left: 200px;
+  
+}
+
+h1{
+  font-size: 55px;
+  line-height: 110%;
+  color: #fff;
+
+}
+
+ .foto-principal{
+  margin-left: 200px;
+  width: 350px;
+ 
+
+  
+}
+
+p{
+  color: #fff;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  line-height: 22px;
+  
+}
+
+
+button{
+  padding: 12px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #df4d76;
+  color: #fff;
+  font-size: 15px;
+  width: 95%;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+
+button:hover{
+  background-color: #f05480;
+}
+
+.nome-pessoa{
+  font-size: 14px;
+  font-weight: 100;
+  letter-spacing: 23px;
+  margin-left: 10px;
+  
+}
+
+.parte-01{
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+}
+
+.texto-01{
+  color: #7f3d6d;
+}
+
+h2{
+  font-size: 35px;
+  color: #df4d76;
+  text-align: center;
+}
+
+.atuação {
+display: grid;
+grid-template-columns: auto auto;
+gap: 10px;
+margin-right: 50px;
+ 
+}
+
+
+.atuação p{
+  display: flex;
+  width: 200px;
+  background-color: #7f3d6d;
+  margin: auto;
+  border-radius: 8px;
+  text-align: center;
+  padding: 14px;
+  justify-content: center;
+     
+  }
+
+  .sobre{
+    color: #fff;
+    
+  }
+
+  .img-pessoa{
+    width: 340px;
+    margin-right: 80px;
+    
+  }
+  
+  .parte-02{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+  }
+
+  .parte-03{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    background-color: #fff;
+    background-image: url(./img/CAPA-FUNDO-AULAO.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .img-cerebro{
+    width: 380px;
+    margin-right: 50px;
+    border-radius: 35px;
+    
+  }
+
+  .texto-parte-03{
+    color: #7f3d6d;
+    line-height: 24px;
+          
+  }
+
+  .parte-04{
+    padding: 70px;
+    background-image: url(./img/capa-alunos.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }
+
+  .container{
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    
+  }
+
+
+  .container .img-enem{
+    width: 230px;
+          
+  }
+
+  .resultado-alunos{
+    text-align: center;
+    color: #fff;
+    padding-bottom: 40px;
+    
+  }
+  
+  
+  footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 20px;
+    color: #7f3d6d;
+    
+
+  }
+
+  .title-form{
+    font-size: 35px;
+    color: #7f3d6d;
+  }
+
+  .email-havila{
+    color: #7f3d6d;
+  }
+
+  .address-havila{
+    color: #7f3d6d;
+  }
+
+  .btn-form{
+    width: 100%;
+  }
+
+  .form-control{
+    padding: 5px;
+    width: 100%;
+    outline: none;
+  }
+
+  .texto-whatsapp{
+    color: #7f3d6d;
+  }
+  
+  .copyright{
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+  }
+
+  button >a{
+    text-decoration: none;
+    color: #fff;
+  }
+
+  a{
+    text-decoration: none;
+    color: #7f3d6d;
+  }
+
+  .caixa-form{
+   width: 30%;
+   
+  }
+
+  ::-webkit-scrollbar{
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb{
+    background-color: #7f3d6d;
+  }
+
+  
+
+  @media (min-width: 350px) and (max-width: 767px) { 
+    main{
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .foto-principal{
+    width: 80%;
+    margin-left: -5rem;
+
+    }
+
+    header{
+      margin-left: -10.9rem;
+    }
+
+    .parte-01{
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    text-align: justify;
+    }
+
+
+    .atuação{
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    min-width: 300px;
+    
+    
+    }
+    .escrita-01{
+      margin: auto;
+      text-align: -webkit-match-parent;
+    }
+
+    .parte-02{
+      display: flex;
+      flex-direction: column;
+      text-align: justify;
+      
+    }
+
+    
+    .img-pessoa{
+      width: 80%;
+      margin-left: 4rem
+    }
+
+    .parte-03{
+      display: flex;
+      flex-direction: column;
+      text-align: justify;
+      align-items: center;
+    }
+
+    .text-reda{
+      text-align: center;
+    }
+
+    .img-cerebro{
+      width: 80%;
+      margin-left: 2.5rem;
+    }
+
+    .parte-04{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .container{
+      display: flex;
+      flex-direction: column;
+    }
+
+    footer{
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+     align-items: center;
+     text-align: center;
+      
+    }
+
+    form{
+      width: 280px;
+      margin-left: -5rem;
+    }
+  }
